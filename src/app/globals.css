@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+td {
+    padding: 10px;
+}
+
+.in {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    outline: 2px solid;
+}
+
+.in:focus {
+    outline: 5px solid rebeccapurple;
+}
